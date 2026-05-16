@@ -9,5 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "@langchain/core": "^1.1.46",
+    "zod": "^4.4.3"
+  }
 }
