@@ -1,0 +1,1 @@
+Classes are like the general store rooms where you can define the main methods/code and object can use them according to their needs.
