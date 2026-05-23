@@ -1,0 +1,2 @@
+Class name shuold be written in pascal case. Car, Building
+Class functions should be written in snake case. get_wheather_data
