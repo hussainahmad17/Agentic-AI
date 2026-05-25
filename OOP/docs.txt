@@ -1,0 +1,3 @@
+Classes are like the general store rooms where you can define the main methods/code and object can use them according to their needs.
+
+Static/class variables are those vars whoe's values are same for all objects such as in banking system, the bank name for all objects should be same so we use static vars.
