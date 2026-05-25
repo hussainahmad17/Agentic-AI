@@ -2,4 +2,14 @@ Classes are like the general store rooms where you can define the main methods/c
 
 Static/class variables are those vars whoe's values are same for all objects such as in banking system, the bank name for all objects should be same so we use static vars.
 
+And there are static methods to get or set static variables. And these vars can be accessed without creating objects.
+
 When object is created from any class, it has spacific reference, and if this object is passed as aurgument to another function and try to change some data, orignal data is changed. This is called Pass by reference.
+
+
+------------------------Aggregation--------------------------
+
+Its a "Has- A" relationship between two Classes
+For example: 
+
+There is a Customer class and there is Address Class, so customer class needs address class, so there is Aggregation relationship.

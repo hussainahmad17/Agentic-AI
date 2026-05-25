@@ -2,15 +2,23 @@ class Atm:
 
 
     #  Static variable to keep track of the number of ATM instances created
-    counter = 1  
+    __counter = 1  
 
     def __init__(self):
         self.pin = ""
         self.balance = 0
-        self.serial_number = Atm.counter 
-        Atm.counter += 1
+        self.serial_number = Atm.__counter 
+        Atm.__counter += 1
 
         # self.menu()
+
+    @staticmethod
+    def get_counter():
+        return Atm.__counter
+    
+    @staticmethod
+    def set_counter(value):
+        Atm.__counter = value
 
     def menu(self):
         user_input = input("""
@@ -100,3 +108,5 @@ faysal = Atm()
 print(f"Serial number of Meezan ATM: {meezan.serial_number}")
 print(f"Serial number of HBL ATM: {hbl.serial_number}")
 print(f"Serial number of Faysal ATM: {faysal.serial_number}")
+
+print(f"Total ATMs created: {Atm.get_counter()}")
