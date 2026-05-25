@@ -1,3 +1,5 @@
 Classes are like the general store rooms where you can define the main methods/code and object can use them according to their needs.
 
 Static/class variables are those vars whoe's values are same for all objects such as in banking system, the bank name for all objects should be same so we use static vars.
+
+When object is created from any class, it has spacific reference, and if this object is passed as aurgument to another function and try to change some data, orignal data is changed. This is called Pass by reference.
