@@ -12,4 +12,4 @@ When object is created from any class, it has spacific reference, and if this ob
 Its a "Has- A" relationship between two Classes
 For example: 
 
-There is a Customer class and there is Address Class, so customer class needs address class, so there is Aggregation relationship.
+There is a Customer class and there is Address Class, customer class needs address class, so there is Aggregation relationship.
