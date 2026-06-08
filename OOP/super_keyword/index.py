@@ -23,3 +23,11 @@ class Student(User):
 
 hussain = Student("Hussain", "hussain@example.com", "S001")
 hussain.display_info()
+
+
+# Reasons to use Super Keyword and use parent class constructor:
+
+# Reason 1: Avoid code duplication
+# Centralize common logic:
+# -> Suppose the parent constructor validates data
+# -> ensures every child class gets the validation.
