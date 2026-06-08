@@ -24,12 +24,10 @@ class Atm:
         elif user_input == "5":
             exit()
 
-
     def create_pin(self):
         self.pin = input("Enter your new PIN: ")
         print("PIN created successfully!")
         self.menu()
-
 
     def deposit(self):
         if self.pin == "":
@@ -47,7 +45,6 @@ class Atm:
             else:
                 print("Incorrect PIN!")
                 self.menu()
-
 
     def withdraw(self):
         if self.pin == "":
