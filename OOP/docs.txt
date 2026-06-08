@@ -18,3 +18,9 @@ There is a Customer class and there is Address Class, customer class needs addre
 
 We are getting the object of that class of which methods we want to use.
 hmy us class ka object mil rha hota ha jis class k methods hmy use krny hoty hain.
+
+
+
+--------------------Super Keyword------------------------------------
+
+Its used to call the parent class methods
