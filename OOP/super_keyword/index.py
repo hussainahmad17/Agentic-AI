@@ -27,7 +27,7 @@ hussain.display_info()
 
 # Reasons to use Super Keyword and use parent class constructor:
 
-# Reason 1: Avoid code duplication
-# Centralize common logic:
+# Reason 1: Avoid code duplication.
+# Reason 2: Centralize common logic:
 # -> Suppose the parent constructor validates data
 # -> ensures every child class gets the validation.

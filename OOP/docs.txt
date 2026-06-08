@@ -24,3 +24,19 @@ hmy us class ka object mil rha hota ha jis class k methods hmy use krny hoty hai
 --------------------Super Keyword------------------------------------
 
 Its used to call the parent class methods
+
+------------------------Inheritence---------------------------------
+
+Process in which a class inherite the:
+->data
+->methods
+->constructer
+
+from a parent class is called Inheritence
+
+-------------------------Types of Inheritence----------------------
+
+-> Simple Level Inheritence: In which there is single parent and a single child class
+-> multiple Level Inheritence: In which there are multiple parent and multiple child Classes
+-> multiple Inheritence: In which, there is single child and multiple parents
+-> Hybride Inheritence: in which, there is combination of all above Types.
