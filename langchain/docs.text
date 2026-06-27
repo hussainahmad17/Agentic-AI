@@ -1,0 +1,31 @@
+Agent AI Notes
+
+Gen AI using Langchain:
+
+1. Why we need Langchain:
+Before Langchain, llms just generate text, they don’t have access to our data, but we need to use llms according to our data, logic, our memory, needs etc but we don’t have such a platform or framework that let us use llms according to our needs. So here Langchain came into the picture.
+Langchain is a framework that basically connect llms with our data, provide built-in tools, features to use llms according to our needs.
+
+2. Components of Langchain:
+Models
+Prompts
+Chains
+
+
+
+
+Models:
+Models are the interfaces that standardize the way to interact(communicate) with AI Models.
+
+Prompts:
+Prompts component is used for dynamic, resusable prompts using prompt templates.
+
+Chains:
+Chains are used to make piplines. Output of one llm is automatically the input of other llm.
+
+indexes:
+It includes:
+->doc. loaders
+->text spliter
+->vecter store
+->retrivers
