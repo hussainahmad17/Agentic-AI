@@ -24,8 +24,10 @@ Chains:
 Chains are used to make piplines. Output of one llm is automatically the input of other llm.
 
 indexes:
+They are used to connect the llms with extrenal knowledge
+
 It includes:
-->doc. loaders
-->text spliter
-->vecter store
-->retrivers
+->doc. loaders: load the docs from where they stored like in S3
+->text spliter: Divide text in chunks to generate embeddings
+->vecter store: Store the generated embeddings
+->retrivers: Make the embeddings of user query and Make a symantic search from vectore Store. Take the result and user quey to llm to generate the final result
